@@ -40,7 +40,7 @@ This is a **Travel Itinerary Planner** project with three primary components:
     uvicorn app.main:app --reload
 ```
 ## Project Struture
-
+```
 travel_itinerary_planner/
 ├── app/                      # Backend API
 │   ├── main.py               # FastAPI main file
@@ -61,7 +61,7 @@ travel_itinerary_planner/
 ├── requirements.txt          # Python dependencies
 └── travel_itinerary.db       # SQLite database file
 
-
+```
 ## Future Enhancements
 
 This app was designed and built in this way for me to demonstrate my DevOps skills. This microservices-style setup allows you to create separate containers for the UI, API, and database, making your architecture more modular, scalable, and maintainable.
