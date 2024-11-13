@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Itinerary Planner</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Travel Itinerary Planner</h1>
+
+    <!-- Destination Form -->
+    <form id="itinerary-form">
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" placeholder="Enter destination" required />
+
+        <label for="days">Number of Days:</label>
+        <input type="number" id="days" placeholder="Enter number of days" required min="1" />
+
+        <button type="submit">Generate Itinerary</button>
+    </form>
+
+    <script src="/static/js/scripts.js"></script>
+
+</body>
+</html>
+
